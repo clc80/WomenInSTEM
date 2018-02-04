@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UITableViewController {
 
     var pictures = [String]()
+    var womenInSTEM = [[String: String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,18 +27,47 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
-        print(pictures)
+        //print(pictures)
+                
+        let urlString = "http://thecoderpilot.com/WomenInSTEM/womenInTech.json"
+        if let url = URL(string: urlString) {
+            if let data = try? String(contentsOf: url) {
+                let json = JSON(parseJSON: data)
+                parse(json: json)
+            }
+        }
+
+    }
+    
+    func parse(json: JSON) {
+        for result in json["results"].arrayValue {
+            let name = result["name"].stringValue
+            let image = result["image"].stringValue
+            let headline = result["headline"].stringValue
+            let body = result["body"].stringValue
+            //let field
+            //let moreInfo
+            let obj = ["name": name, "image": image, "headline": headline, "body": body]
+            womenInSTEM.append(obj)
+            print(womenInSTEM)
+            tableView.reloadData()
+        }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return pictures.count
+        print(womenInSTEM.count)
+        return womenInSTEM.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = pictures[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let WomenInSTEM = womenInSTEM[indexPath.row]
+        cell.textLabel?.text = WomenInSTEM["name"]
+        cell.detailTextLabel?.text = WomenInSTEM["headline"]
         return cell
     }
+    
+    
 
 
 }

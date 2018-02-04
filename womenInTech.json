@@ -1,48 +1,9 @@
 {
-  "metadata": {
-    "responseInfo": {
-      "status": 200,
-      "developerMessage": "OK",
-    }
-  },
   "results": [{
       "name": "Ada Lovelace",
       "image": "ada-lovelace.jpg",
       "headline": "A gifted mathematician, Ada Lovelace is considered to have written instructions for the first computer program in the mid-1800s.",
-      "body": "Lovelace's immersion in both fields began with her parents: Romanticism's playboy poet Lord Byron and his \"Princess of the Parallelogram,\" a prim and proper product of the Industrial Revolution named Annabella Milbanke. As hinted by Lord Bryon arriving several days late to his own wedding, their marriage would not last. Although divorce was heavily stigmatized in England's Regency Era, Byron's incest with his half sister was even more taboo. Lovelace, then just four months old, would never know her father.
-      Fearing that her daughter might inherit Lord Byron 's manic tendencies, Annabella imposed on Ada a strict diet of mathematics and science. Lovelace'
-      s tutors believed that,
-      had she been a man,
-      there would have been \"potential to become an original mathematical investigator, perhaps of first-rate eminence.\" Indeed, Ada's processing power was reportedly so great she suffered from headaches that impaired her vision.
-      Although many men of the time feared \"the very great tension of mind which [sophisticated mathematics] requires is beyond a woman's physical power,\" Lovelace viewed things differently, writing: \"Nothing but a very close and intense application to subjects of a scientific nature now seems at all to keep my imagination from running wild, or to stop the voice which seems to be left in my mind.\"
-      At 17,
-      Lovelace became friends with inventor and father of the computer,
-      Charles Babbage.Babbage was best known
-      for designing the difference engine,
-      a computer meant to perform mathematical calculations.He also designed its successor,
-      the analytical engine which was supposed to carry out more complex calculations.
-      At 19,
-      marriage led to three children in four years.At 26,
-      encouraged by her husband,
-      Lovelace returned to assisting her friend and mentor Charles Babbage,
-      known as the father of the computer.
-      Over time,
-      Babbage became so impressed with Lovelace 's analytical skills that he called her the \"Enchantress of Number.\" He later asked Lovelace to translate an article written by an Italian mathematician about the analytical engine from French to English. While translating the article, she added her own notes describing how to write code for the device to handle letters, symbols and numbers.
-      \"The Analytical Engine has no pretentions whatever to originate anything,\" she wrote in one of those footnotes. \"It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.\"
-      Thanks to those notes on the engine,
-      Lovelace is now widely recognized as the first computer programmer.
-      Ada Lovelace is considered to be the founder of scientific computing and the first computer programmer.Her algorithm - which history has come to know as the first one designed
-      for a machine to carry out.Lovelace would sadly not see built during her lifetime.Lovelace passed away in 1852,
-      but her previously little - known work and \"poetical\" approach to science has broken through to inspire present-day young women interested in computer programming.
-      Although she earned little public recognition during her lifetime,
-      Ada Lovelace is now considered a pioneer and prophet of the computer age.In the first entry to his book Innovators,
-      Walter Isaacson wrote: \"Like Steve Jobs, [Ada Lovelace] stands at the intersection of arts and technology.\"
-      Today,
-      Lovelace 's legacy lives on as the world'
-      s first computer programmer.Her work with Babbage and her mathematical mind not only gave us the first language of code,
-      but also the method of looping,
-      which is a series of instructions that continually repeats until a certain condition is reached.The looping process is still in use by programmers today.
-      ",
+      "body": "Lovelace's immersion in both fields began with her parents: Romanticism's playboy poet Lord Byron and his \"Princess of the Parallelogram,\" a prim and proper product of the Industrial Revolution named Annabella Milbanke. As hinted by Lord Bryon arriving several days late to his own wedding, their marriage would not last. Although divorce was heavily stigmatized in England's Regency Era, Byron's incest with his half sister was even more taboo. Lovelace, then just four months old, would never know her father.Fearing that her daughter might inherit Lord Byron's manic tendencies, Annabella imposed on Ada a strict diet of mathematics and science. Lovelace's tutors believed that,had she been a man,there would have been \"potential to become an original mathematical investigator, perhaps of first-rate eminence.\" Indeed, Ada's processing power was reportedly so great she suffered from headaches that impaired her vision.Although many men of the time feared \"the very great tension of mind which [sophisticated mathematics] requires is beyond a woman's physical power,\" Lovelace viewed things differently, writing: \"Nothing but a very close and intense application to subjects of a scientific nature now seems at all to keep my imagination from running wild, or to stop the voice which seems to be left in my mind.\"At 17,Lovelace became friends with inventor and father of the computer,Charles Babbage.Babbage was best knownfor designing the difference engine,a computer meant to perform mathematical calculations.He also designed its successor,the analytical engine which was supposed to carry out more complex calculations.At 19,marriage led to three children in four years.At 26, encouraged by her husband, Lovelace returned to assisting her friend and mentor Charles Babbage,known as the father of the computer. Over time, Babbage became so impressed with Lovelace 's analytical skills that he called her the \"Enchantress of Number.\" He later asked Lovelace to translate an article written by an Italian mathematician about the analytical engine from French to English. While translating the article, she added her own notes describing how to write code for the device to handle letters, symbols and numbers. \"The Analytical Engine has no pretentions whatever to originate anything,\" she wrote in one of those footnotes. \"It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.\" Thanks to those notes on the engine, Lovelace is now widely recognized as the first computer programmer. Ada Lovelace is considered to be the founder of scientific computing and the first computer programmer.Her algorithm - which history has come to know as the first one designed for a machine to carry out.Lovelace would sadly not see built during her lifetime.Lovelace passed away in 1852, but her previously little - known work and \"poetical\" approach to science has broken through to inspire present-day young women interested in computer programming. Although she earned little public recognition during her lifetime, Ada Lovelace is now considered a pioneer and prophet of the computer age.In the first entry to his book Innovators, Walter Isaacson wrote: \"Like Steve Jobs, [Ada Lovelace] stands at the intersection of arts and technology.\" Today, Lovelace 's legacy lives on as the world's first computer programmer.Her work with Babbage and her mathematical mind not only gave us the first language of code, but also the method of looping, which is a series of instructions that continually repeats until a certain condition is reached.The looping process is still in use by programmers today.",
       "STEM-ID": {
         "id": "2",
         "name": "Technology"
@@ -64,17 +25,14 @@
       "moreInfo": [
         "http://www.latinorebels.com/2015/09/21/the-feminist-flower/",
         "https://en.wikipedia.org/wiki/Ana_Roque_de_Duprey"
-        ]
+      ]
     },
     {
       "name": "Evelyn Boyd Granville",
       "image": "Evelyn_Boyd_Granville.jpeg",
       "headline": "Race, Space, & Education Advocacy",
-      "body": "Growing up in Washington, D.C. during the Great Depression, Evelyne Boyd Granville perpetually saw her glass as half-full. \"I was aware that segregation placed many limitations on Negros,\" she wrote. \"However, daily one came into contact with Negroes who had made a place for themselves in society…\"
-Granville's daily contact with such role models began at Dunbar High School, where highly educated teachers (white and black) instilled a belief in Granville that, regardless of race and gender, all deserved access to knowledge. \"We accepted education as the means to rise above the limitations that a prejudiced society endeavored to place upon us.\"
-Pinched pennies, financial aid, and academic scholarship made her continued education possible. Granville attended Smith College and then Yale for her Ph.D, becoming just the second African American women to receive a mathematics doctorate at any American University.
-After a few years of teaching at Fisk University, an all-black college in Nashville, Granville began her professional career performing real-time' calculations for satellite launchings. She studied rocket trajectories and methods of orbit computation as a part of the U.S. involvement in the space race. In 1967, Granville returned to the classroom, where she began an impressive 30-year commitment to education advocacy.",
-"STEM-ID": {
+      "body": "Growing up in Washington, D.C. during the Great Depression, Evelyne Boyd Granville perpetually saw her glass as half-full. \"I was aware that segregation placed many limitations on Negros,\" she wrote. \"However, daily one came into contact with Negroes who had made a place for themselves in society…\" Granville's daily contact with such role models began at Dunbar High School, where highly educated teachers (white and black) instilled a belief in Granville that, regardless of race and gender, all deserved access to knowledge. \"We accepted education as the means to rise above the limitations that a prejudiced society endeavored to place upon us.\" Pinched pennies, financial aid, and academic scholarship made her continued education possible. Granville attended Smith College and then Yale for her Ph.D, becoming just the second African American women to receive a mathematics doctorate at any American University. After a few years of teaching at Fisk University, an all-black college in Nashville, Granville began her professional career performing real-time' calculations for satellite launchings. She studied rocket trajectories and methods of orbit computation as a part of the U.S. involvement in the space race. In 1967, Granville returned to the classroom, where she began an impressive 30-year commitment to education advocacy.",
+      "STEM-ID": {
         "id": "4",
         "name": "Mathematics"
       },
@@ -101,10 +59,7 @@ After a few years of teaching at Fisk University, an all-black college in Nashvi
       "name": "Sister Mary Kenneth Keller",
       "image": "mary_kenneth_keller.jpg",
       "headline": "First Female Computer Science Phd",
-      "body": "The first woman to receive a Ph.D in Computer Science was a nun: Mary Kenneth Keller entered the \"Sister of Charity\" in 1932, professing her vows in 1940.
-Keller received her B.S./M.S. Mathematics from DePaul University in Chicago and briefly studied at Dartmouth, breaking the \"men-only\" rule. While there, Keller played a significant role developing a key computer language: Beginner's All-Puprose Symbolic Instruction Code, or BASIC.
-Keller understood that the world was \"having an information explosion… and information is of no use unless it's available.\" Thanks to BASIC, writing custom software was no longer restricted to mathematicians and scientists. Her contribution made computer use much more accessible to a broader portion of the population.
-Keller returned to the Midwest and, in 1965, received her PhD from the University of Wisconsin. Clarke College in Dubuque, Iowa hired Keller to create and chair their Computer Science Department, where she continued to grow and share her knowledge for 20 years",
+      "body": "The first woman to receive a Ph.D in Computer Science was a nun: Mary Kenneth Keller entered the \"Sister of Charity\" in 1932, professing her vows in 1940. Keller received her B.S./M.S. Mathematics from DePaul University in Chicago and briefly studied at Dartmouth, breaking the \"men-only\" rule. While there, Keller played a significant role developing a key computer language: Beginner's All-Puprose Symbolic Instruction Code, or BASIC. Keller understood that the world was \"having an information explosion… and information is of no use unless it's available.\" Thanks to BASIC, writing custom software was no longer restricted to mathematicians and scientists. Her contribution made computer use much more accessible to a broader portion of the population.Keller returned to the Midwest and, in 1965, received her PhD from the University of Wisconsin. Clarke College in Dubuque, Iowa hired Keller to create and chair their Computer Science Department, where she continued to grow and share her knowledge for 20 years",
       "STEM-ID": {
         "id": "2",
         "name": "Technology"
@@ -113,6 +68,6 @@ Keller returned to the Midwest and, in 1965, received her PhD from the Universit
         "https://en.wikipedia.org/wiki/Mary_Kenneth_Keller",
         "http://mentalfloss.com/article/53178/first-woman-earn-phd-computer-science-was-nun"
       ]
-    },
+    }
   ]
 }

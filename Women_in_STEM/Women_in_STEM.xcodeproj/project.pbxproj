@@ -41,10 +41,11 @@
 		3AF86C4A2026B2D60096D41E /* grace-hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2D2026B2D60096D41E /* grace-hopper.jpg */; };
 		3AF86C4B2026B2D60096D41E /* usda_mollieorshansky_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2E2026B2D60096D41E /* usda_mollieorshansky_square.jpg */; };
 		3AF86C4C2026B2D60096D41E /* doe_calutronpic_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2F2026B2D60096D41E /* doe_calutronpic_square.jpg */; };
+		3AF86C4E2026BB6C0096D41E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF86C4D2026BB6C0096D41E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AF86BFD2026B0010096D41E /* Women_in_STEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Women_in_STEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF86BFD2026B0010096D41E /* Women_in_STEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Women_in_STEM.app; path = "/Users/clmaciel/Desktop/WomeninTech/Women_in_STEM/build/Debug-iphoneos/Women_in_STEM.app"; sourceTree = "<absolute>"; };
 		3AF86C002026B0010096D41E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF86C022026B0010096D41E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AF86C052026B0010096D41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		3AF86C2D2026B2D60096D41E /* grace-hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grace-hopper.jpg"; sourceTree = "<group>"; };
 		3AF86C2E2026B2D60096D41E /* usda_mollieorshansky_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usda_mollieorshansky_square.jpg; sourceTree = "<group>"; };
 		3AF86C2F2026B2D60096D41E /* doe_calutronpic_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doe_calutronpic_square.jpg; sourceTree = "<group>"; };
+		3AF86C4D2026BB6C0096D41E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,16 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				3AF86BFF2026B0010096D41E /* Women_in_STEM */,
-				3AF86BFE2026B0010096D41E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		3AF86BFE2026B0010096D41E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3AF86BFD2026B0010096D41E /* Women_in_STEM.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3AF86BFF2026B0010096D41E /* Women_in_STEM */ = {
@@ -118,6 +111,7 @@
 				3AF86C072026B0010096D41E /* Assets.xcassets */,
 				3AF86C092026B0010096D41E /* LaunchScreen.storyboard */,
 				3AF86C0C2026B0010096D41E /* Info.plist */,
+				3AF86C4D2026BB6C0096D41E /* SwiftyJSON.swift */,
 				3AF86C122026B2D60096D41E /* images */,
 			);
 			path = Women_in_STEM;
@@ -204,7 +198,7 @@
 				Base,
 			);
 			mainGroup = 3AF86BF42026B0010096D41E;
-			productRefGroup = 3AF86BFE2026B0010096D41E /* Products */;
+			productRefGroup = 3AF86BF42026B0010096D41E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -260,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF86C4E2026BB6C0096D41E /* SwiftyJSON.swift in Sources */,
 				3AF86C032026B0010096D41E /* ViewController.swift in Sources */,
 				3AF86C012026B0010096D41E /* AppDelegate.swift in Sources */,
 			);
