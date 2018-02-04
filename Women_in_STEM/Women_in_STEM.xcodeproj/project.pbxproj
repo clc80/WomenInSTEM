@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF86C012026B0010096D41E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF86C002026B0010096D41E /* AppDelegate.swift */; };
+		3AF86C032026B0010096D41E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF86C022026B0010096D41E /* ViewController.swift */; };
+		3AF86C062026B0010096D41E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C042026B0010096D41E /* Main.storyboard */; };
+		3AF86C082026B0010096D41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C072026B0010096D41E /* Assets.xcassets */; };
+		3AF86C0B2026B0010096D41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C092026B0010096D41E /* LaunchScreen.storyboard */; };
+		3AF86C302026B2D60096D41E /* nsf_ellenochoa_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C132026B2D60096D41E /* nsf_ellenochoa_square.jpg */; };
+		3AF86C312026B2D60096D41E /* eniac.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C142026B2D60096D41E /* eniac.png */; };
+		3AF86C322026B2D60096D41E /* eniac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C152026B2D60096D41E /* eniac.jpg */; };
+		3AF86C332026B2D60096D41E /* rosalind-franklin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C162026B2D60096D41E /* rosalind-franklin.jpg */; };
+		3AF86C342026B2D60096D41E /* computerGirls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C172026B2D60096D41E /* computerGirls.jpg */; };
+		3AF86C352026B2D60096D41E /* katherine-johnson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C182026B2D60096D41E /* katherine-johnson.jpg */; };
+		3AF86C362026B2D60096D41E /* lillianmollergilbraith_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C192026B2D60096D41E /* lillianmollergilbraith_square.jpg */; };
+		3AF86C372026B2D60096D41E /* susan kare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1A2026B2D60096D41E /* susan kare.jpg */; };
+		3AF86C382026B2D60096D41E /* Radia_Perlman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1B2026B2D60096D41E /* Radia_Perlman.jpg */; };
+		3AF86C392026B2D60096D41E /* lydia-v-k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1C2026B2D60096D41E /* lydia-v-k.jpg */; };
+		3AF86C3A2026B2D60096D41E /* mercury-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1D2026B2D60096D41E /* mercury-13.jpg */; };
+		3AF86C3B2026B2D60096D41E /* anadupreyphoto_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1E2026B2D60096D41E /* anadupreyphoto_square.jpg */; };
+		3AF86C3C2026B2D60096D41E /* uspto_edithclarke_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C1F2026B2D60096D41E /* uspto_edithclarke_square.jpg */; };
+		3AF86C3D2026B2D60096D41E /* Evelyn_Boyd_Granville.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C202026B2D60096D41E /* Evelyn_Boyd_Granville.jpeg */; };
+		3AF86C3E2026B2D60096D41E /* usda_virginiahholsinger_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C212026B2D60096D41E /* usda_virginiahholsinger_square.jpg */; };
+		3AF86C3F2026B2D60096D41E /* ruthroganbenerito_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C222026B2D60096D41E /* ruthroganbenerito_square.jpg */; };
+		3AF86C402026B2D60096D41E /* rachel-carson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C232026B2D60096D41E /* rachel-carson.jpg */; };
+		3AF86C412026B2D60096D41E /* mary_kenneth_keller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C242026B2D60096D41E /* mary_kenneth_keller.jpg */; };
+		3AF86C422026B2D60096D41E /* maria-klawe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C252026B2D60096D41E /* maria-klawe.jpg */; };
+		3AF86C432026B2D60096D41E /* sally-ride.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C262026B2D60096D41E /* sally-ride.jpg */; };
+		3AF86C442026B2D60096D41E /* eniac_5_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C272026B2D60096D41E /* eniac_5_0.jpg */; };
+		3AF86C452026B2D60096D41E /* barbara-mcclintock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C282026B2D60096D41E /* barbara-mcclintock.jpg */; };
+		3AF86C462026B2D60096D41E /* Evelyn_Boyd_Granville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C292026B2D60096D41E /* Evelyn_Boyd_Granville.jpg */; };
+		3AF86C472026B2D60096D41E /* Margaret_Hamilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2A2026B2D60096D41E /* Margaret_Hamilton.jpg */; };
+		3AF86C482026B2D60096D41E /* usda_maryenglepennington_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2B2026B2D60096D41E /* usda_maryenglepennington_square.jpg */; };
+		3AF86C492026B2D60096D41E /* ada-lovelace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2C2026B2D60096D41E /* ada-lovelace.jpg */; };
+		3AF86C4A2026B2D60096D41E /* grace-hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2D2026B2D60096D41E /* grace-hopper.jpg */; };
+		3AF86C4B2026B2D60096D41E /* usda_mollieorshansky_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2E2026B2D60096D41E /* usda_mollieorshansky_square.jpg */; };
+		3AF86C4C2026B2D60096D41E /* doe_calutronpic_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF86C2F2026B2D60096D41E /* doe_calutronpic_square.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AF86BFD2026B0010096D41E /* Women_in_STEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Women_in_STEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF86C002026B0010096D41E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AF86C022026B0010096D41E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AF86C052026B0010096D41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AF86C072026B0010096D41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AF86C0A2026B0010096D41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AF86C0C2026B0010096D41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF86C132026B2D60096D41E /* nsf_ellenochoa_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nsf_ellenochoa_square.jpg; sourceTree = "<group>"; };
+		3AF86C142026B2D60096D41E /* eniac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eniac.png; sourceTree = "<group>"; };
+		3AF86C152026B2D60096D41E /* eniac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eniac.jpg; sourceTree = "<group>"; };
+		3AF86C162026B2D60096D41E /* rosalind-franklin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rosalind-franklin.jpg"; sourceTree = "<group>"; };
+		3AF86C172026B2D60096D41E /* computerGirls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = computerGirls.jpg; sourceTree = "<group>"; };
+		3AF86C182026B2D60096D41E /* katherine-johnson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "katherine-johnson.jpg"; sourceTree = "<group>"; };
+		3AF86C192026B2D60096D41E /* lillianmollergilbraith_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lillianmollergilbraith_square.jpg; sourceTree = "<group>"; };
+		3AF86C1A2026B2D60096D41E /* susan kare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "susan kare.jpg"; sourceTree = "<group>"; };
+		3AF86C1B2026B2D60096D41E /* Radia_Perlman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Radia_Perlman.jpg; sourceTree = "<group>"; };
+		3AF86C1C2026B2D60096D41E /* lydia-v-k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lydia-v-k.jpg"; sourceTree = "<group>"; };
+		3AF86C1D2026B2D60096D41E /* mercury-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mercury-13.jpg"; sourceTree = "<group>"; };
+		3AF86C1E2026B2D60096D41E /* anadupreyphoto_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anadupreyphoto_square.jpg; sourceTree = "<group>"; };
+		3AF86C1F2026B2D60096D41E /* uspto_edithclarke_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uspto_edithclarke_square.jpg; sourceTree = "<group>"; };
+		3AF86C202026B2D60096D41E /* Evelyn_Boyd_Granville.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Evelyn_Boyd_Granville.jpeg; sourceTree = "<group>"; };
+		3AF86C212026B2D60096D41E /* usda_virginiahholsinger_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usda_virginiahholsinger_square.jpg; sourceTree = "<group>"; };
+		3AF86C222026B2D60096D41E /* ruthroganbenerito_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruthroganbenerito_square.jpg; sourceTree = "<group>"; };
+		3AF86C232026B2D60096D41E /* rachel-carson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rachel-carson.jpg"; sourceTree = "<group>"; };
+		3AF86C242026B2D60096D41E /* mary_kenneth_keller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mary_kenneth_keller.jpg; sourceTree = "<group>"; };
+		3AF86C252026B2D60096D41E /* maria-klawe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maria-klawe.jpg"; sourceTree = "<group>"; };
+		3AF86C262026B2D60096D41E /* sally-ride.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sally-ride.jpg"; sourceTree = "<group>"; };
+		3AF86C272026B2D60096D41E /* eniac_5_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eniac_5_0.jpg; sourceTree = "<group>"; };
+		3AF86C282026B2D60096D41E /* barbara-mcclintock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbara-mcclintock.jpg"; sourceTree = "<group>"; };
+		3AF86C292026B2D60096D41E /* Evelyn_Boyd_Granville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Evelyn_Boyd_Granville.jpg; sourceTree = "<group>"; };
+		3AF86C2A2026B2D60096D41E /* Margaret_Hamilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Margaret_Hamilton.jpg; sourceTree = "<group>"; };
+		3AF86C2B2026B2D60096D41E /* usda_maryenglepennington_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usda_maryenglepennington_square.jpg; sourceTree = "<group>"; };
+		3AF86C2C2026B2D60096D41E /* ada-lovelace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ada-lovelace.jpg"; sourceTree = "<group>"; };
+		3AF86C2D2026B2D60096D41E /* grace-hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grace-hopper.jpg"; sourceTree = "<group>"; };
+		3AF86C2E2026B2D60096D41E /* usda_mollieorshansky_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usda_mollieorshansky_square.jpg; sourceTree = "<group>"; };
+		3AF86C2F2026B2D60096D41E /* doe_calutronpic_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doe_calutronpic_square.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF86BFA2026B0010096D41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF86BF42026B0010096D41E = {
+			isa = PBXGroup;
+			children = (
+				3AF86BFF2026B0010096D41E /* Women_in_STEM */,
+				3AF86BFE2026B0010096D41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF86BFE2026B0010096D41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF86BFD2026B0010096D41E /* Women_in_STEM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF86BFF2026B0010096D41E /* Women_in_STEM */ = {
+			isa = PBXGroup;
+			children = (
+				3AF86C002026B0010096D41E /* AppDelegate.swift */,
+				3AF86C022026B0010096D41E /* ViewController.swift */,
+				3AF86C042026B0010096D41E /* Main.storyboard */,
+				3AF86C072026B0010096D41E /* Assets.xcassets */,
+				3AF86C092026B0010096D41E /* LaunchScreen.storyboard */,
+				3AF86C0C2026B0010096D41E /* Info.plist */,
+				3AF86C122026B2D60096D41E /* images */,
+			);
+			path = Women_in_STEM;
+			sourceTree = "<group>";
+		};
+		3AF86C122026B2D60096D41E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3AF86C132026B2D60096D41E /* nsf_ellenochoa_square.jpg */,
+				3AF86C142026B2D60096D41E /* eniac.png */,
+				3AF86C152026B2D60096D41E /* eniac.jpg */,
+				3AF86C162026B2D60096D41E /* rosalind-franklin.jpg */,
+				3AF86C172026B2D60096D41E /* computerGirls.jpg */,
+				3AF86C182026B2D60096D41E /* katherine-johnson.jpg */,
+				3AF86C192026B2D60096D41E /* lillianmollergilbraith_square.jpg */,
+				3AF86C1A2026B2D60096D41E /* susan kare.jpg */,
+				3AF86C1B2026B2D60096D41E /* Radia_Perlman.jpg */,
+				3AF86C1C2026B2D60096D41E /* lydia-v-k.jpg */,
+				3AF86C1D2026B2D60096D41E /* mercury-13.jpg */,
+				3AF86C1E2026B2D60096D41E /* anadupreyphoto_square.jpg */,
+				3AF86C1F2026B2D60096D41E /* uspto_edithclarke_square.jpg */,
+				3AF86C202026B2D60096D41E /* Evelyn_Boyd_Granville.jpeg */,
+				3AF86C212026B2D60096D41E /* usda_virginiahholsinger_square.jpg */,
+				3AF86C222026B2D60096D41E /* ruthroganbenerito_square.jpg */,
+				3AF86C232026B2D60096D41E /* rachel-carson.jpg */,
+				3AF86C242026B2D60096D41E /* mary_kenneth_keller.jpg */,
+				3AF86C252026B2D60096D41E /* maria-klawe.jpg */,
+				3AF86C262026B2D60096D41E /* sally-ride.jpg */,
+				3AF86C272026B2D60096D41E /* eniac_5_0.jpg */,
+				3AF86C282026B2D60096D41E /* barbara-mcclintock.jpg */,
+				3AF86C292026B2D60096D41E /* Evelyn_Boyd_Granville.jpg */,
+				3AF86C2A2026B2D60096D41E /* Margaret_Hamilton.jpg */,
+				3AF86C2B2026B2D60096D41E /* usda_maryenglepennington_square.jpg */,
+				3AF86C2C2026B2D60096D41E /* ada-lovelace.jpg */,
+				3AF86C2D2026B2D60096D41E /* grace-hopper.jpg */,
+				3AF86C2E2026B2D60096D41E /* usda_mollieorshansky_square.jpg */,
+				3AF86C2F2026B2D60096D41E /* doe_calutronpic_square.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF86BFC2026B0010096D41E /* Women_in_STEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF86C0F2026B0010096D41E /* Build configuration list for PBXNativeTarget "Women_in_STEM" */;
+			buildPhases = (
+				3AF86BF92026B0010096D41E /* Sources */,
+				3AF86BFA2026B0010096D41E /* Frameworks */,
+				3AF86BFB2026B0010096D41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Women_in_STEM;
+			productName = Women_in_STEM;
+			productReference = 3AF86BFD2026B0010096D41E /* Women_in_STEM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF86BF52026B0010096D41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = thecoderpilot;
+				TargetAttributes = {
+					3AF86BFC2026B0010096D41E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3AF86BF82026B0010096D41E /* Build configuration list for PBXProject "Women_in_STEM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AF86BF42026B0010096D41E;
+			productRefGroup = 3AF86BFE2026B0010096D41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF86BFC2026B0010096D41E /* Women_in_STEM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF86BFB2026B0010096D41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF86C372026B2D60096D41E /* susan kare.jpg in Resources */,
+				3AF86C342026B2D60096D41E /* computerGirls.jpg in Resources */,
+				3AF86C332026B2D60096D41E /* rosalind-franklin.jpg in Resources */,
+				3AF86C3B2026B2D60096D41E /* anadupreyphoto_square.jpg in Resources */,
+				3AF86C302026B2D60096D41E /* nsf_ellenochoa_square.jpg in Resources */,
+				3AF86C3E2026B2D60096D41E /* usda_virginiahholsinger_square.jpg in Resources */,
+				3AF86C432026B2D60096D41E /* sally-ride.jpg in Resources */,
+				3AF86C402026B2D60096D41E /* rachel-carson.jpg in Resources */,
+				3AF86C4A2026B2D60096D41E /* grace-hopper.jpg in Resources */,
+				3AF86C422026B2D60096D41E /* maria-klawe.jpg in Resources */,
+				3AF86C3C2026B2D60096D41E /* uspto_edithclarke_square.jpg in Resources */,
+				3AF86C312026B2D60096D41E /* eniac.png in Resources */,
+				3AF86C4B2026B2D60096D41E /* usda_mollieorshansky_square.jpg in Resources */,
+				3AF86C322026B2D60096D41E /* eniac.jpg in Resources */,
+				3AF86C0B2026B0010096D41E /* LaunchScreen.storyboard in Resources */,
+				3AF86C492026B2D60096D41E /* ada-lovelace.jpg in Resources */,
+				3AF86C362026B2D60096D41E /* lillianmollergilbraith_square.jpg in Resources */,
+				3AF86C472026B2D60096D41E /* Margaret_Hamilton.jpg in Resources */,
+				3AF86C3F2026B2D60096D41E /* ruthroganbenerito_square.jpg in Resources */,
+				3AF86C442026B2D60096D41E /* eniac_5_0.jpg in Resources */,
+				3AF86C4C2026B2D60096D41E /* doe_calutronpic_square.jpg in Resources */,
+				3AF86C082026B0010096D41E /* Assets.xcassets in Resources */,
+				3AF86C482026B2D60096D41E /* usda_maryenglepennington_square.jpg in Resources */,
+				3AF86C392026B2D60096D41E /* lydia-v-k.jpg in Resources */,
+				3AF86C452026B2D60096D41E /* barbara-mcclintock.jpg in Resources */,
+				3AF86C352026B2D60096D41E /* katherine-johnson.jpg in Resources */,
+				3AF86C412026B2D60096D41E /* mary_kenneth_keller.jpg in Resources */,
+				3AF86C062026B0010096D41E /* Main.storyboard in Resources */,
+				3AF86C382026B2D60096D41E /* Radia_Perlman.jpg in Resources */,
+				3AF86C462026B2D60096D41E /* Evelyn_Boyd_Granville.jpg in Resources */,
+				3AF86C3D2026B2D60096D41E /* Evelyn_Boyd_Granville.jpeg in Resources */,
+				3AF86C3A2026B2D60096D41E /* mercury-13.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF86BF92026B0010096D41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF86C032026B0010096D41E /* ViewController.swift in Sources */,
+				3AF86C012026B0010096D41E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AF86C042026B0010096D41E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF86C052026B0010096D41E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AF86C092026B0010096D41E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF86C0A2026B0010096D41E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF86C0D2026B0010096D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AF86C0E2026B0010096D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AF86C102026B0010096D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMSJ2DXRDG;
+				INFOPLIST_FILE = Women_in_STEM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecoderpilot.Women-in-STEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AF86C112026B0010096D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMSJ2DXRDG;
+				INFOPLIST_FILE = Women_in_STEM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecoderpilot.Women-in-STEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF86BF82026B0010096D41E /* Build configuration list for PBXProject "Women_in_STEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF86C0D2026B0010096D41E /* Debug */,
+				3AF86C0E2026B0010096D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF86C0F2026B0010096D41E /* Build configuration list for PBXNativeTarget "Women_in_STEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF86C102026B0010096D41E /* Debug */,
+				3AF86C112026B0010096D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AF86BF52026B0010096D41E /* Project object */;
+}
