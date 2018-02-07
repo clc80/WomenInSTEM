@@ -1,5 +1,6 @@
 {
-  "results": [{
+  "results": [
+    {
       "name": "Ada Lovelace",
       "image": "ada-lovelace.jpg",
       "headline": "A gifted mathematician, Ada Lovelace is considered to have written instructions for the first computer program in the mid-1800s.",
@@ -28,8 +29,22 @@
       ]
     },
     {
+      "name": "Carol Shaw",
+      "image": "carol_shaw.jpg",
+      "headline": "Atari Game Developer",
+      "body": "Carol Shaw was born and raised in Palo Alto, CA. Always excellent at math, it wasn't until she inherited her brothers' model railroad that Shaw began tinkering with electronics: \"I actually designed some circuitry … with some transistors and stuff that would turn on the signal light for various blocks showing there was a train up ahead.\" Fresh out of Berkeley's Computer Science graduate program, Shaw accepted a position at game-maker Atari in the late 1970s. Wearing thick-rimmed glasses and flannel, she biked 10 miles each way to design and program video games.Eventually landing at Activision, Shaw programmed one of the Atari's best-known shooter games, River Raid. For the first time, gamers could experience an inordinate amount of non-random, repeating terrain despite constrictive memory limits. River Raid was the first game that allowed the shooter to accelerate and slow down all over the screen. Shaw's work as a pioneer game designer has made her a legend to two generations of tech pros and gamers.",
+      "STEM-ID": {
+        "id": "2",
+        "name": "Technology"
+      },
+      "moreInfo": [
+        "https://en.wikipedia.org/wiki/Carol_Shaw",
+        "http://www.vintagecomputing.com/index.php/archives/800/vcg-interview-carol-shaw-female-video-game-pioneer-2"
+      ]
+    },
+    {
       "name": "Evelyn Boyd Granville",
-      "image": "Evelyn_Boyd_Granville.jpeg",
+      "image": "Evelyn_Boyd_Granville.jpg",
       "headline": "Race, Space, & Education Advocacy",
       "body": "Growing up in Washington, D.C. during the Great Depression, Evelyne Boyd Granville perpetually saw her glass as half-full. \"I was aware that segregation placed many limitations on Negros,\" she wrote. \"However, daily one came into contact with Negroes who had made a place for themselves in society…\" Granville's daily contact with such role models began at Dunbar High School, where highly educated teachers (white and black) instilled a belief in Granville that, regardless of race and gender, all deserved access to knowledge. \"We accepted education as the means to rise above the limitations that a prejudiced society endeavored to place upon us.\" Pinched pennies, financial aid, and academic scholarship made her continued education possible. Granville attended Smith College and then Yale for her Ph.D, becoming just the second African American women to receive a mathematics doctorate at any American University. After a few years of teaching at Fisk University, an all-black college in Nashville, Granville began her professional career performing real-time' calculations for satellite launchings. She studied rocket trajectories and methods of orbit computation as a part of the U.S. involvement in the space race. In 1967, Granville returned to the classroom, where she began an impressive 30-year commitment to education advocacy.",
       "STEM-ID": {
@@ -39,6 +54,20 @@
       "moreInfo": [
         "https://en.wikipedia.org/wiki/Evelyn_Boyd_Granville",
         "https://www.biography.com/people/evelyn-boyd-granville-21442045"
+      ]
+    },
+    {
+      "name": "Janese Swanson",
+      "image": "JaneseSwanson.jpg",
+      "headline": "Founder of Girl Tech",
+      "body": "Easy was never an option for Janese Swanson. After her father died in Vietnam, she began helping her mother clean houses for extra cash. One day, while cleaning a wealthy doctor's home in La Jolla, CA, Swanson shared a dream of becoming a doctor herself. The doctor's wife advised: \"It will be easier for you if you marry a doctor.\" At age 15, she fibbed her date of birth and started slinging televisions at Sears. Many years later, Swanson would use her electronic sales experience as manager of the computer and technology department at a small store called My Child's Destiny. Interested in the nexus of technology and children education, she received Computers in Education Certificate from Berkeley, all while raising her daughter. In 1988, Swanson began working for Broderbund Software Company, developing games for kids such as, \"Where in the World is Carmen Sandiego?\" However, she struggled there as \"[we women] earned far less than there male colleagues… had to raise hands to get a word in [at meetings] … and always had a hard time getting men to focus on what we were saying rather than our legs and breasts.\" She quit, got her Ph.D from San Francisco State, and, in 1995, started her own toy company, Girl Tech. Swanson initially struggled to find investors and vendors. \"For two years after I founded the company, toy store buyers would say, 'Can you make it pink' [or] 'Can you make it for boys?' And I would say, 'No, this is what girls like to play with.'\" It wasn't easy but, in 1998, Swanson sold Girl Tech to Radica Games Limited for $6 million. She remained with the company for 2 years as Vice President",
+      "STEM-ID": {
+        "id": "2",
+        "name": "Technology"
+      },
+      "moreInfo": [
+        "https://en.wikipedia.org/wiki/Janese_Swanson",
+        "https://speakerpedia.com/speakers/janese-swanson"
       ]
     },
     {
@@ -67,6 +96,20 @@
       "moreInfo": [
         "https://en.wikipedia.org/wiki/Mary_Kenneth_Keller",
         "http://mentalfloss.com/article/53178/first-woman-earn-phd-computer-science-was-nun"
+      ]
+    },
+    {
+      "name": "Susan Kare",
+      "image": "susan_kare.jpg",
+      "headline": "The Apple Icon",
+      "body": "Although our next pioneer briefly worked for Microsoft, Susan Kare is best known for her work with Bill Gate's nemesis, Steve Jobs. Kare followed dreams of a career in the fine arts to San Francisco. A chance encounter with an old high school friend landed her an interview with Apple. Steve Jobs, inspired by Xerox's graphical user interface (GUI), was on the hunt for an artist who could design Macintosh's icons. She got the job. \"The morale is to have confidence in your skill mix,\" she later said. \"Because I certainly didn't have a computer background.\" Using a pad of graph paper, Kare designed icons that were simple, elegant, and playful. The original designs were just 32 x 32 pixels. Kare is also responsible for developing the command (\"Apple\") key as a stylized castle seen from above. As part of her Apple work, Kare created the typeface Chicago, used in the first four generations of the iPod. To keep the lettering smooth and seamless, all lines were purposefully made horizontal, vertical, or on a 45-degree angle. That sort of attention to detail has continued to define Apple to this day.",
+      "STEM-ID": {
+        "id": "2",
+        "name": "Technology"
+      },
+      "moreInfo": [
+        "https://en.wikipedia.org/wiki/Susan_Kare",
+        "http://www.computinghistory.org.uk/det/1792/Susan-Kare/"
       ]
     }
   ]
