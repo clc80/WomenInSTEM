@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UITableViewController {
-
+    
     var pictures = [String]()
     var womenInSTEM = [[String: String]]()
     
@@ -64,11 +64,9 @@ class ViewController: UITableViewController {
         let WomenInSTEM = womenInSTEM[indexPath.row]
         cell.textLabel?.text = WomenInSTEM["name"]
         cell.detailTextLabel?.text = WomenInSTEM["headline"]
+        cell.imageView?.image = UIImage(named: WomenInSTEM["image"]!)
         return cell
     }
-    
-    
-
 
 }
 
