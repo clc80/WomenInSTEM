@@ -62,10 +62,21 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let WomenInSTEM = womenInSTEM[indexPath.row]
+        //adds the image to the cell
+        cell.backgroundView = UIImageView(image: UIImage(named: "background_button2"))
+        
         cell.textLabel?.text = WomenInSTEM["name"]
+        //changes the color of the background behind the text
+        cell.textLabel?.backgroundColor = #colorLiteral(red: 0, green: 0.08235294118, blue: 0.2784313725, alpha: 0)
         cell.detailTextLabel?.text = WomenInSTEM["headline"]
+        cell.detailTextLabel?.backgroundColor = #colorLiteral(red: 0, green: 0.08235294118, blue: 0.2784313725, alpha: 0)
         cell.imageView?.image = UIImage(named: WomenInSTEM["image"]!)
         return cell
+    }
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view:UIView, forSection: Int) {
+        if let headerTitle = view as? UITableViewHeaderFooterView {
+            headerTitle.textLabel?.textColor = UIColor.red
+        }
     }
 
 }
