@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class WomenVC: UITableViewController {
     
     var pictures = [String]()
     var womenInSTEM = [[String: String]]()
@@ -77,6 +77,11 @@ class ViewController: UITableViewController {
         if let headerTitle = view as? UITableViewHeaderFooterView {
             headerTitle.textLabel?.textColor = UIColor.red
         }
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = LadyDetailViewController()
+        vc.detailItem = womenInSTEM[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 }
