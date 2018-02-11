@@ -15,6 +15,8 @@ class WomenVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //adding the ability to share with others
+        
         
         //load images
         let fm = FileManager.default

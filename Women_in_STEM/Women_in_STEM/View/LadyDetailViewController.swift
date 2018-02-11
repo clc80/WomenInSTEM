@@ -20,6 +20,10 @@ class LadyDetailViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //share information with others
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        
         guard detailItem != nil else {return}
         
         let name = detailItem["name"]
@@ -46,6 +50,11 @@ class LadyDetailViewController: UIViewController {
             
             webView .loadHTMLString(html, baseURL: nil)
         }
+    }
+    @objc func shareTapped() {
+        let vc = UIActivityViewController(activityItems: [detailItem["name"]!,detailItem["body"]!], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
