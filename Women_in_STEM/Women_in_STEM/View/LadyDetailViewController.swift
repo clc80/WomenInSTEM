@@ -24,10 +24,26 @@ class LadyDetailViewController: UIViewController {
         //share information with others
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
+        //add image
+        let image:UIImage = UIImage(named: detailItem["image"]!)!
+        
+        let imageView = UIImageView(image: image)
+        self.view.addSubview(imageView)
+        
+        //image constraints
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        imageView.topAnchor.constraint(equalTo: view.topAnchor,constant: 10).isActive = true
+        imageView.bottomAnchor.constraint(equalTo: view.topAnchor,constant: 110).isActive = true
+
+        webView.topAnchor.constraint(equalTo: imageView.bottomAnchor).isActive = true
+        
         guard detailItem != nil else {return}
         
         let name = detailItem["name"]
-        let image = detailItem["image"]
         
         if let body = detailItem["body"] {
             var html = "<html>"
@@ -39,16 +55,14 @@ class LadyDetailViewController: UIViewController {
             html += "<h2><font color = \"#001547\">"
             html += name!
             html += "</font> </h2>"
-            html += "<img src = \" "
-            html += image!
-            html += "\">"
             html += "<font color = \"#140911\">"
             html += body
             html += "</font>"
             html += "</body>"
             html += "</html>"
             
-            webView .loadHTMLString(html, baseURL: nil)
+            webView.loadHTMLString(html, baseURL: nil)
+
         }
     }
     @objc func shareTapped() {

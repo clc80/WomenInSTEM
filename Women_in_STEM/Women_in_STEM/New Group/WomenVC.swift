@@ -51,7 +51,7 @@ class WomenVC: UITableViewController {
             //let moreInfo
             let obj = ["name": name, "image": image, "headline": headline, "body": body]
             womenInSTEM.append(obj)
-            print(womenInSTEM)
+            //print(womenInSTEM)
             tableView.reloadData()
         }
     }
