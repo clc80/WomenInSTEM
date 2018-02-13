@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AVx-II-NJH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Women in STEM-->
+        <scene sceneID="Dvn-Zt-Sbu">
+            <objects>
+                <tableViewController id="J62-Af-BPb" customClass="WomenVC" customModule="Women_in_STEM" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ABW-6k-gNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select a Lady To Learn More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R8j-IE-ttK">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.87594976234780364" green="0.87761738578680204" blue="0.86153053658541634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
+                            <color key="textColor" red="0.0" green="0.082352941176470587" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="l0Z-Ba-TGU" detailTextLabel="obK-qS-UBz" imageView="AQT-jQ-FgO" style="IBUITableViewCellStyleSubtitle" id="hYh-wJ-BZd">
+                                <rect key="frame" x="0.0" y="72" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hYh-wJ-BZd" id="bzw-7j-DtF">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l0Z-Ba-TGU">
+                                            <rect key="frame" x="16" y="11.5" width="41.5" height="27.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="obK-qS-UBz">
+                                            <rect key="frame" x="16" y="42.5" width="59.5" height="23.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                            <color key="textColor" red="1" green="0.93725490196078431" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AQT-jQ-FgO">
+                                            <rect key="frame" x="16" y="0.0" width="80" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="J62-Af-BPb" id="aBe-bM-Kco"/>
+                            <outlet property="delegate" destination="J62-Af-BPb" id="8LF-L5-D14"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Women in STEM" id="CBS-YZ-69n"/>
+                    <connections>
+                        <segue destination="W2p-zz-JGN" kind="show" id="LAA-np-wal"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ZY-e2-xki" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513" y="117"/>
+        </scene>
+        <!--Lady Detail View Controller-->
+        <scene sceneID="X3b-HM-mkK">
+            <objects>
+                <viewController id="W2p-zz-JGN" customClass="LadyDetailViewController" customModule="Women_in_STEM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TIw-dp-blC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LadyName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JiC-B7-q2T">
+                                <rect key="frame" x="0.0" y="155" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ngt-MP-bqK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hRk-AT-Uc6">
+                                <rect key="frame" x="112" y="0.0" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="VrY-it-C5X"/>
+                                    <constraint firstAttribute="width" constant="150" id="Wv4-Qz-UBB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ladyBody" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlL-jM-BWT">
+                                <rect key="frame" x="0.0" y="210" width="375" height="393"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JiC-B7-q2T" firstAttribute="centerX" secondItem="TIw-dp-blC" secondAttribute="centerX" id="1fc-wm-HVv"/>
+                            <constraint firstItem="hRk-AT-Uc6" firstAttribute="centerX" secondItem="TIw-dp-blC" secondAttribute="centerX" id="5jb-Y8-yQ5"/>
+                            <constraint firstItem="Jwd-g9-SDd" firstAttribute="trailing" secondItem="JiC-B7-q2T" secondAttribute="trailing" id="Bef-rZ-O7l"/>
+                            <constraint firstItem="Jwd-g9-SDd" firstAttribute="bottom" secondItem="JlL-jM-BWT" secondAttribute="bottom" id="DKF-6F-kwC"/>
+                            <constraint firstItem="JiC-B7-q2T" firstAttribute="leading" secondItem="Jwd-g9-SDd" secondAttribute="leading" id="DXc-L1-sgV"/>
+                            <constraint firstItem="JlL-jM-BWT" firstAttribute="leading" secondItem="Jwd-g9-SDd" secondAttribute="leading" id="Dra-93-jha"/>
+                            <constraint firstItem="hRk-AT-Uc6" firstAttribute="top" secondItem="Jwd-g9-SDd" secondAttribute="top" id="IKl-BZ-PAs"/>
+                            <constraint firstItem="JiC-B7-q2T" firstAttribute="top" secondItem="hRk-AT-Uc6" secondAttribute="bottom" constant="5" id="dDx-mP-A9E"/>
+                            <constraint firstItem="JlL-jM-BWT" firstAttribute="top" secondItem="JiC-B7-q2T" secondAttribute="bottom" constant="5" id="r3g-NH-42w"/>
+                            <constraint firstItem="JlL-jM-BWT" firstAttribute="trailing" secondItem="Jwd-g9-SDd" secondAttribute="trailing" id="zer-Je-2hD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jwd-g9-SDd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="608-Ca-0f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2316" y="115.59220389805098"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="F0I-59-Csy">
+            <objects>
+                <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="AVx-II-NJH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="FIY-Gg-yOm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="fci-PL-mCa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.082352941176470587" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J62-Af-BPb" kind="relationship" relationship="rootViewController" id="PXa-MP-xT6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CT4-iE-eKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="140.77961019490255"/>
+        </scene>
+    </scenes>
+</document>
