@@ -1,32 +1,41 @@
 //
-//  LadyDetailViewController.swift
+//  WomenDetailViewController.swift
 //  Women_in_STEM
 //
-//  Created by Claudia Contreras on 2/8/18.
+//  Created by Claudia Contreras on 2/15/18.
 //  Copyright © 2018 thecoderpilot. All rights reserved.
 //
 
 import UIKit
 import WebKit
 
-class LadyDetailViewController: UIViewController {
-
+class WomenDetailViewController: UIViewController {
+    @IBOutlet var ladyLabel: UILabel!
+    @IBOutlet var ladyImage: UIImageView!
+    @IBOutlet var ladyText: WKWebView!
+    
     var webView: WKWebView!
     var detailItem: [String: String]!
     
     override func loadView() {
         webView = WKWebView()
-        view = webView
+        //view = webView
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         //share information with others
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
         guard detailItem != nil else {return}
         
         let name = detailItem["name"]
+        ladyLabel.text = name
+        
+        let image:UIImage = UIImage(named: detailItem["image"]!)!
+        let imageView = UIImageView(image: image)
+        ladyImage = imageView
         
         if let body = detailItem["body"] {
             var html = "<html>"
@@ -45,7 +54,6 @@ class LadyDetailViewController: UIViewController {
             html += "</html>"
             
             webView.loadHTMLString(html, baseURL: nil)
-
         }
     }
     @objc func shareTapped() {
@@ -54,9 +62,5 @@ class LadyDetailViewController: UIViewController {
         present(vc, animated: true)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }

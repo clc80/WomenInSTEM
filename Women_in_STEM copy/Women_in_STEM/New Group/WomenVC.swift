@@ -81,7 +81,7 @@ class WomenVC: UITableViewController {
         }
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = LadyDetailViewController()
+        let vc = WomenDetailViewController()
         vc.detailItem = womenInSTEM[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
